@@ -46,8 +46,8 @@ This project implements a **4x4 image convolution system** using a **3x3 kernel*
 │   ├── report.pdf
 │   ├── flowchart.jpg
 │   ├── state_diagram.jpg
-│   ├── block_diagram.png
-│   ├── result_image.png  # Added result image from report
+│   ├── block_diagram.jpg
+│   ├── result_image.jpg  # Added result image from report
 ├── README.md
 ├── Makefile
 └── LICENSE
