@@ -1,0 +1,28 @@
+.\src\control_unit.v
+.\src\decoder4to16 .v
+.\src\D_Flip_Flop.v
+.\src\ control_unit_tb.v
+.\src\program_counter.v
+.\src\BreadBoard.v
+.\src\control_tb.v
+.\src\Demux_1x4.v
+.\src\counter_one.v
+.\src\control_two.v
+.\src\control_three.v
+.\src\control_four.v
+.\src\ Databus_4bit.v
+.\src\ROM.v
+.\src\kernel.v
+.\src\kernel_counter.v
+.\src\half_adder.v
+.\src\full_adder.v
+.\src\four_bit_adder.v
+.\src\multiplier_4x4.v
+.\src\eight_bit_adder.v
+.\src\ALU.v
+.\src\register_8bit.v
+.\src\databus_2bit.v
+.\src\RAM.v
+.\src\decoder2to4.v
+.\src\tb_RAM.v
+.\src\tb_counter_one.v

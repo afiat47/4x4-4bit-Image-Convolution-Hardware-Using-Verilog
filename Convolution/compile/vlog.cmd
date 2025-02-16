@@ -1,0 +1,1 @@
+-o C:/My_Designs/Afiat/Convolution/compile -lc C:/My_Designs/Afiat/library.cfg -fl C:/My_Designs/Afiat/Convolution/projlib.cfg -pli "C:/Aldec/Active-HDL-Student-Edition/bin/systf.dll" -O2 -sve -msg 5 -sv2k17 -work Convolution C:/My_Designs/Afiat/Convolution/src/decoder2to4.v 

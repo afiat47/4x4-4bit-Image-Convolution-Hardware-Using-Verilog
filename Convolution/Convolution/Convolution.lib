@@ -1,0 +1,301 @@
+timestamp=1737354838088
+
+[~A]
+C:/My_Designs/Afiat/Convolution/src/ Databus_4bit.v=0*458805*459360
+C:/My_Designs/Afiat/Convolution/src/ALU.v=0*466434*467043
+C:/My_Designs/Afiat/Convolution/src/BreadBoard.v=0*447069*448534
+C:/My_Designs/Afiat/Convolution/src/Demux_1x4.v=0*457116*457603
+C:/My_Designs/Afiat/Convolution/src/ROM.v=0*460524*461373
+C:/My_Designs/Afiat/Convolution/src/control_two.v=0*451495*452192
+C:/My_Designs/Afiat/Convolution/src/control_unit.v=0*453407*454153
+C:/My_Designs/Afiat/Convolution/src/decoder2to4.v=0*473834*474323
+C:/My_Designs/Afiat/Convolution/src/eight_bit_adder.v=0*468271*468940
+C:/My_Designs/Afiat/Convolution/src/four_bit_adder.v=0*472073*472629
+C:/My_Designs/Afiat/Convolution/src/kernel.v=0*464420*465224
+C:/My_Designs/Afiat/Convolution/src/kernel_counter.v=0*462565*463233
+C:/My_Designs/Afiat/Convolution/src/multiplier_4x4.v=0*470177*470829
+C:/My_Designs/Afiat/Convolution/src/program_counter.v=0*455366*455939
+C:/My_Designs/Afiat/Convolution/src/tb_counter_one.v=0*449662*450282
+LastVerilogToplevel=multiplier_4x4
+ModifyID=217
+Version=74
+c:/My_Designs/Afiat/Convolution/src/ Databus_4bit.v=0*92567*93122
+c:/My_Designs/Afiat/Convolution/src/ control_unit_tb.v=0*9040*9694
+c:/My_Designs/Afiat/Convolution/src/ALU.v=0*443432*444041
+c:/My_Designs/Afiat/Convolution/src/BreadBoard.v=0*440753*442218
+c:/My_Designs/Afiat/Convolution/src/D_Flip_Flop.v=0*361359*361912
+c:/My_Designs/Afiat/Convolution/src/Demux_1x4.v=0*31871*32358
+c:/My_Designs/Afiat/Convolution/src/RAM.v=0*375355*376220
+c:/My_Designs/Afiat/Convolution/src/ROM.v=0*296919*297768
+c:/My_Designs/Afiat/Convolution/src/control_four.v=0*52869*53567
+c:/My_Designs/Afiat/Convolution/src/control_tb.v=0*236318*236982
+c:/My_Designs/Afiat/Convolution/src/control_three.v=0*51116*51799
+c:/My_Designs/Afiat/Convolution/src/control_two.v=0*49365*50062
+c:/My_Designs/Afiat/Convolution/src/control_unit.v=0*234462*235208
+c:/My_Designs/Afiat/Convolution/src/counter_one.v=0*272114*272779
+c:/My_Designs/Afiat/Convolution/src/decoder2to4.v=0*351787*352276
+c:/My_Designs/Afiat/Convolution/src/decoder4to16 .v=0*2274*2925
+c:/My_Designs/Afiat/Convolution/src/eight_bit_adder.v=0*112620*113289
+c:/My_Designs/Afiat/Convolution/src/four_bit_adder.v=0*107236*107792
+c:/My_Designs/Afiat/Convolution/src/full_adder.v=0*105604*106092
+c:/My_Designs/Afiat/Convolution/src/half_adder.v=0*104063*104503
+c:/My_Designs/Afiat/Convolution/src/kernel.v=0*314382*315186
+c:/My_Designs/Afiat/Convolution/src/kernel_counter.v=0*411318*411986
+c:/My_Designs/Afiat/Convolution/src/multiplier_4x4.v=0*108948*109600
+c:/My_Designs/Afiat/Convolution/src/program_counter.v=0*23705*24278
+c:/My_Designs/Afiat/Convolution/src/register_8bit.v=0*137299*137918
+c:/My_Designs/Afiat/Convolution/src/tb_RAM.v=0*365089*365909
+
+[~MFT]
+0=4|0Convolution.mgf|474323|282772
+1=4|1Convolution.mgf|937070|862291
+3=8|3Convolution.mgf|458273|419961
+
+[$root]
+A/$root=22|||1*936600
+BinW64/$root=3*457969
+SLP=3*458084
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|c73a565f2ade592f8ac1c68f484c921614c4caa6dbf5b2fca82335c748d4b973
+
+[ALU]
+A/ALU=22|../src/ALU.v|1|1*925508
+BinW64/ALU=3*453969
+R=../src/ALU.v|1
+SLP=3*454648
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|b3eb40c25b2a3c0379c7730185183eec6bf7c7ac68ffb5f3263b4b9f62fd5b5f
+
+[BreadBoard]
+A/BreadBoard=22|../src/BreadBoard.v|2|1*894278
+BinW64/BreadBoard=3*437354
+R=../src/BreadBoard.v|2
+SLP=3*438941
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|8ba0ca03ad14999ec7bb1194a46882e94111d740701db6c4873b9e384b41e22666e54905a4bbe41dddc2357c4bb6fb86
+
+[D_Flip_Flop]
+A/D_Flip_Flop=22|../src/D_Flip_Flop.v|3|1*704325
+BinW64/D_Flip_Flop=3*353316
+R=../src/D_Flip_Flop.v|3
+SLP=3*353856
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|3035114a8eea3ac612f138148cd45037d65708298f3fe4b2dead010c312b71b06eee8ed00651cb9400ee3bc2afeeda2e
+
+[Databus_4bit]
+A/Databus_4bit=22|../src/ Databus_4bit.v|2|1*913737
+BinW64/Databus_4bit=3*447495
+R=../src/ Databus_4bit.v|2
+SLP=3*448149
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|9831678907194167316b02ec9abdbf4e61767e59dfe4d44f11042d7c4521d2ff41903fa36b19be366b398a496e4c7e9b
+
+[Demux_1x4]
+A/Demux_1x4=22|../src/Demux_1x4.v|3|1*911558
+BinW64/Demux_1x4=3*446923
+R=../src/Demux_1x4.v|3
+SLP=3*447042
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|2478b2f7ef2e34bef9fdefd8bb4083953c0b4c34fd333bff535624c247f0b74e60b7e0479ff283f075baaa8cdc1c6ddf
+
+[RAM]
+A/RAM=22|../src/RAM.v|3|1*731897
+BinW64/RAM=3*367360
+R=../src/RAM.v|3
+SLP=3*368619
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|1344bbc8931e060ac81abb395d743025df9e14998a9b9824d62a6bd10da74bcc
+
+[RAM_with_D_FF]
+A/RAM_with_D_FF=22|../src/D_Flip_Flop.v|3|1*685829
+BinW64/RAM_with_D_FF=3*343951
+R=../src/D_Flip_Flop.v|3
+SLP=3*344981
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|1abaa7e9d120584eae9c6b5d22abedb2697a59f4a47feef9aa5dc0014b036431fa2bc31ac0491f30ec14a59bb0828357
+
+[ROM]
+A/ROM=22|../src/ROM.v|3|1*915587
+BinW64/ROM=3*448697
+R=../src/ROM.v|3
+SLP=3*449733
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|46043f483c89b653159bfc3cb48ffe0b2efa5717ae399c60c381b2c2c3f0deb4
+
+[ROM_25x4]
+A/ROM_25x4=22|../src/ROM.v|3|1*125930
+BinW64/ROM_25x4=3*87273
+R=../src/ROM.v|3
+SLP=3*88351
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|04c0cb7d95c2a919904fbcae968828d58daf0fa33d45c70b25ec0f1d61b92b1f4b6476f0e6f074d125efbfa839d1ed5b
+
+[control_tb]
+A/control_tb=22|../src/control_tb.v|3|1*438203
+BinW64/control_tb=3*230670
+R=../src/control_tb.v|3
+SLP=3*231862
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|a0cc062d115c51bc9c172e928a89ccbbf043b90ec8b6284a8d0b6adb3dc810c82f810a546173ccb68deb9836f60ed5f9
+
+[control_unit]
+A/control_unit=22|../src/control_unit.v|1|1*905906
+BinW64/control_unit=3*443600
+R=../src/control_unit.v|1
+SLP=3*444393
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|62cdd31518126521df66462af92a6d2b711b818d9a1b2ffa542e7c475ffbd898b0b7135b43a506feeb9c7d16e39262f9
+
+[control_unit_tb]
+A/control_unit_tb=22|../src/ control_unit_tb.v|3|1*16541
+BinW64/control_unit_tb=3*10658
+R=../src/ control_unit_tb.v|3
+SLP=3*11812
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|ecd33309eced7ffdf9eeee20106f99cf98ed250616292defd8d07fddc21d837a0aebf86a1bf00b01f20cff58d681a654
+
+[counter_four]
+A/counter_four=22|../src/control_four.v|3|1*79364
+BinW64/counter_four=3*57054
+R=../src/control_four.v|3
+SLP=3*57841
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|b275279ec0d980f5606ccb82a736ea3cef4525071161c5d944c59a278d4ead7e48aa46e60977cbb950f7454d7210a402
+
+[counter_one]
+A/counter_one=22|../src/counter_one.v|3|1*513974
+BinW64/counter_one=3*266299
+R=../src/counter_one.v|3
+SLP=3*267004
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|ef41fe967c42498631e28766fb3df2ac300ec8390ab96c940622ddbdc65398ad4f9b9ebb524155b6ad7b29d14460a530
+
+[counter_three]
+A/counter_three=22|../src/control_three.v|3|1*76179
+BinW64/counter_three=3*55541
+R=../src/control_three.v|3
+SLP=3*56258
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|d41a1dc63863ad08b028c59f42458b550bb6a06219677f8406aea40ed648cdb59b5d532695d33e7be12fd304b6464676
+
+[counter_two]
+A/counter_two=22|../src/control_two.v|3|1*902689
+BinW64/counter_two=3*441956
+R=../src/control_two.v|3
+SLP=3*442731
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|8ef88623d3ec17e8f1502f37ab2193fe070c58952eff19b802bcd66b4bf6aa6c53383d58a1f15fba6163e7bbb737398d
+
+[decoder2to4]
+A/decoder2to4=22|../src/decoder2to4.v|1|1*937070
+BinW64/decoder2to4=3*458152
+R=../src/decoder2to4.v|1
+SLP=3*458273
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|b0feb206c9c3be817a05d2c8f09e59029b16d0ba239cdc055b1eaba3c6c187c38777c870df001a39349efd5029a606b2
+
+[decoder4to16]
+A/decoder4to16=22|../src/decoder4to16 .v|1|1*3605
+BinW64/decoder4to16=3*3018
+R=../src/decoder4to16 .v|1
+SLP=3*3140
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|4e7cbbcb1e9b1bbf8ae34b418aec44d031ecf21991d9545f9e3d717acdf42e04641d2898b28e1afeb708eff8cb0a845e
+
+[eight_bit_adder]
+A/eight_bit_adder=22|../src/eight_bit_adder.v|3|1*928318
+BinW64/eight_bit_adder=3*455175
+R=../src/eight_bit_adder.v|3
+SLP=3*455300
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|47a6887fb32bcae8098c27f54b4bc12d7d8bce1f57ec0010d0893a71b5d664644db20c9c561d0c2b2dacb484ba3c0664
+
+[four_bit_adder]
+A/four_bit_adder=22|../src/four_bit_adder.v|3|1*934855
+BinW64/four_bit_adder=3*457508
+R=../src/four_bit_adder.v|3
+SLP=3*457632
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|bac176bb450095e1b63aef2ea83dde04ac8ab1f5213ede218e21cf60b5ea1524a8f8fe9d445a04c5cfeabc8703896ec6
+
+[full_adder]
+A/full_adder=22|../src/full_adder.v|6|1*162466
+BinW64/full_adder=3*108152
+R=../src/full_adder.v|6
+SLP=3*108483
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|b6bc4c72c6b4732d30366d04e0b9d81ca93b35da59acef6f28d70118359e933eaa8bdc8837ee6e4029ccaf3b0894eed9
+
+[half_adder]
+A/half_adder=22|../src/half_adder.v|5|1*161114
+BinW64/half_adder=3*107411
+R=../src/half_adder.v|5
+SLP=3*107778
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|9d478890ab412e42d6b75255d560236f41ab0ed49771ee80612b3666c997a9c2ed5e7e4b26bf2e027c82d38c81937903
+
+[kernel]
+A/kernel=22|../src/kernel.v|3|1*922181
+BinW64/kernel=3*452248
+R=../src/kernel.v|3
+SLP=3*453210
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|45401e147f8cabd66b56a2c02c2314d58936a4eb92bbcb7556a1546e8b829b2e
+
+[kernel_counter]
+A/kernel_counter=22|../src/kernel_counter.v|3|1*918953
+BinW64/kernel_counter=3*450630
+R=../src/kernel_counter.v|3
+SLP=3*451393
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|7c50c7ac9e66a619d170565046a2ad6d5e2760be5df072168b2bafec871f360afb26adbb28f127e2643a67fd1b4e8ead
+
+[multiplier_4x4]
+A/multiplier_4x4=22|../src/multiplier_4x4.v|1|1*931323
+BinW64/multiplier_4x4=3*455943
+R=../src/multiplier_4x4.v|1
+SLP=3*456723
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|35265693738efc84f33e4f211221d3670d7bb05e36e0f7acdb3ab2dc5df163831a52fb23a90069829d4b14b59399f378
+
+[program_counter]
+A/program_counter=22|../src/program_counter.v|3|1*909147
+BinW64/program_counter=3*445900
+R=../src/program_counter.v|3
+SLP=3*446381
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|8f4c9b71392661bb64aaf1fd1ecdee3884ee5168192b3e6ad34e2bbdf84bdd45299e3cb62977a12348da9912def89445
+
+[reg_8bit]
+A/reg_8bit=22|../src/register_8bit.v|3|1*203314
+BinW64/reg_8bit=3*125826
+R=../src/register_8bit.v|3
+SLP=3*126247
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|b4349ddf9d204aa46b0f16c18920c4c787dff3ca29dc89f6fb5ef56f2a729a50a525fb16e72f306fe13dced04631ed95
+
+[register_8bit]
+A/register_8bit=22|../src/register_8bit.v|3|1*217480
+BinW64/register_8bit=3*131571
+R=../src/register_8bit.v|3
+SLP=3*131997
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|2725640d824a6e014b90e7110b5c52e2d7bab8538c1d7f01146a08e5d7f06ac5c22c169046a10340e6365cfaa86745d3
+
+[tb_RAM]
+A/tb_RAM=22|../src/tb_RAM.v|3|1*710042
+BinW64/tb_RAM=3*356422
+R=../src/tb_RAM.v|3
+SLP=3*357781
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|428bf9f6de1240afeb2a1ec9e0f6e6a5563f808048ede13aa1208b9131dbec6d
+
+[tb_counter_one]
+A/tb_counter_one=22|../src/tb_counter_one.v|3|1*900856
+BinW64/tb_counter_one=3*440126
+R=../src/tb_counter_one.v|3
+SLP=3*441231
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|d8a15cea88a82c4d5a01d4dae69d6a32329098921c58182637a90c619ca75d0ba92188aa6d6277d7a522d3993e8a630f
+
+[~U]
+$root=12|0*473146|
+ALU=12|0*466187|
+BreadBoard=12|0*446753||0x10
+D_Flip_Flop=12|0*361128|
+Databus_4bit=12|0*458553|
+Demux_1x4=12|0*456911|
+RAM=12|0*375100|
+RAM_with_D_FF=12|0*349583||0x10
+ROM=12|0*460314|
+ROM_25x4=12|0*82651||0x10
+control_tb=12|0*236145||0x10
+control_unit=12|0*453144|
+control_unit_tb=12|0*8861||0x10
+counter_four=12|0*52625||0x10
+counter_one=12|0*271872|
+counter_three=12|0*50870||0x10
+counter_two=12|0*451253|
+decoder2to4=12|0*473616|
+decoder4to16=12|0*2053|
+eight_bit_adder=12|0*468003|
+four_bit_adder=12|0*471816|
+full_adder=12|0*105374||0x10
+half_adder=12|0*103860||0x10
+kernel=12|0*464204|
+kernel_counter=12|0*462317|
+multiplier_4x4=12|0*469928||0x10
+program_counter=12|0*455122|
+reg_8bit=12|0*130370||0x10
+register_8bit=12|0*137034||0x10
+tb_RAM=12|0*364928||0x10
+tb_counter_one=12|0*449485||0x10

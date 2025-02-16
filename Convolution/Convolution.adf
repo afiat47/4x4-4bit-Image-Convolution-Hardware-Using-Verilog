@@ -1,0 +1,80 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=4
+Current Config=compile
+[Configurations]
+compile=Convolution
+[Library]
+Convolution=.\Convolution\Convolution.lib
+[$LibMap$]
+Convolution=.
+Active_lib=
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VERILOG
+REFRESH_FLOW=1
+FLOWTOOLS=NONE
+FAMILY=
+[Files]
+/control_unit.v=-1
+/decoder4to16 .v=-1
+/D_Flip_Flop.v=-1
+/ control_unit_tb.v=-1
+/program_counter.v=-1
+/BreadBoard.v=-1
+/control_tb.v=-1
+/Demux_1x4.v=-1
+/counter_one.v=-1
+/control_two.v=-1
+/control_three.v=-1
+/control_four.v=-1
+/ Databus_4bit.v=-1
+/ROM.v=-1
+/kernel.v=-1
+/kernel_counter.v=-1
+/half_adder.v=-1
+/full_adder.v=-1
+/four_bit_adder.v=-1
+/multiplier_4x4.v=-1
+/eight_bit_adder.v=-1
+/ALU.v=-1
+/register_8bit.v=-1
+/databus_2bit.v=-1
+/RAM.v=-1
+/decoder2to4.v=-1
+/tb_RAM.v=-1
+/tb_counter_one.v=-1
+[Files.Data]
+.\src\control_unit.v=Verilog Source Code
+.\src\decoder4to16 .v=Verilog Source Code
+.\src\D_Flip_Flop.v=Verilog Source Code
+.\src\ control_unit_tb.v=Verilog Source Code
+.\src\program_counter.v=Verilog Source Code
+.\src\BreadBoard.v=Verilog Source Code
+.\src\control_tb.v=Verilog Source Code
+.\src\Demux_1x4.v=Verilog Source Code
+.\src\counter_one.v=Verilog Source Code
+.\src\control_two.v=Verilog Source Code
+.\src\control_three.v=Verilog Source Code
+.\src\control_four.v=Verilog Source Code
+.\src\ Databus_4bit.v=Verilog Source Code
+.\src\ROM.v=Verilog Source Code
+.\src\kernel.v=Verilog Source Code
+.\src\kernel_counter.v=Verilog Source Code
+.\src\half_adder.v=Verilog Source Code
+.\src\full_adder.v=Verilog Source Code
+.\src\four_bit_adder.v=Verilog Source Code
+.\src\multiplier_4x4.v=Verilog Source Code
+.\src\eight_bit_adder.v=Verilog Source Code
+.\src\ALU.v=Verilog Source Code
+.\src\register_8bit.v=Verilog Source Code
+.\src\databus_2bit.v=Verilog Source Code
+.\src\RAM.v=Verilog Source Code
+.\src\decoder2to4.v=Verilog Source Code
+.\src\tb_RAM.v=Verilog Source Code
+.\src\tb_counter_one.v=Verilog Source Code
+[HierarchyViewer]
+HierarchyInformation=
+ShowHide=ShowTopLevel
+Selected=

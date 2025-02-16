@@ -1,0 +1,296 @@
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: ELBREAD_0049 The "control_unit" design unit does not have a time unit/precision defined but other design units do.
+# ELBREAD: Warning: ELBREAD_0049 The "ALU" design unit does not have a time unit/precision defined but other design units do.
+# ELBREAD: Warning: ELBREAD_0049 The "decoder4to16" design unit does not have a time unit/precision defined but other design units do.
+# ELBREAD: Warning: ELBREAD_0049 The "multiplier_4x4" design unit does not have a time unit/precision defined but other design units do.
+# ELBREAD: Warning: ELBREAD_0049 The "decoder2to4" design unit does not have a time unit/precision defined but other design units do.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 +access +r +m+BreadBoard BreadBoard
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: ELBREAD_0049 The "control_unit" design unit does not have a time unit/precision defined but other design units do.
+# ELBREAD: Warning: ELBREAD_0049 The "ALU" design unit does not have a time unit/precision defined but other design units do.
+# ELBREAD: Warning: ELBREAD_0049 The "decoder4to16" design unit does not have a time unit/precision defined but other design units do.
+# ELBREAD: Warning: ELBREAD_0049 The "multiplier_4x4" design unit does not have a time unit/precision defined but other design units do.
+# ELBREAD: Warning: ELBREAD_0049 The "decoder2to4" design unit does not have a time unit/precision defined but other design units do.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Finished. Using existing simulator library
+# SLP: 72 (12.16%) primitives and 520 (87.84%) other processes in SLP
+# SLP: 2875 (100.00%) signals in SLP and 0 interface signals
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 697 kB (elbread=437 elab2=125 kernel=134 sdf=0)
+# KERNEL: ASDB file was created in location C:\My_Designs\Afiat\Convolution\src\wave.asdb
+#  12:11 AM, Monday, February 17, 2025
+#  Simulation has been initialized
+run
+# KERNEL: E=0|T=0000000000000001|PC=00|Demux:0000|address=0000|data=0001|kernel=0001| Multiplication:00000000 | regA:xxxxxxxx | Addition:00000000 | regB:00000000 |address:00 RAM:00000000
+# KERNEL: E=0|T=0000000000000010|PC=00|Demux:0001|address=0001|data=0010|kernel=0001| Multiplication:00000000 | regA:xxxxxxxx | Addition:00000000 | regB:00000000 |address:00 RAM:00000000
+# KERNEL: E=0|T=0000000000000100|PC=00|Demux:0000|address=0001|data=0010|kernel=0001| Multiplication:00000000 | regA:xxxxxxxx | Addition:00000000 | regB:00000000 |address:00 RAM:00000000
+# KERNEL: E=0|T=0000000000001000|PC=00|Demux:0000|address=0001|data=0010|kernel=0010| Multiplication:00000000 | regA:xxxxxxxx | Addition:00000000 | regB:00000000 |address:00 RAM:00000000
+# KERNEL: E=0|T=0000000000010000|PC=00|Demux:0000|address=0001|data=0010|kernel=0010| Multiplication:00000100 | regA:xxxxxxxx | Addition:00000000 | regB:00000000 |address:00 RAM:00000000
+# KERNEL: E=0|T=0000000000100000|PC=00|Demux:0000|address=0001|data=0010|kernel=0010| Multiplication:00000000 | regA:00000100 | Addition:00000100 | regB:00000000 |address:00 RAM:00000000
+# KERNEL: E=0|T=0000000001000000|PC=00|Demux:0000|address=0001|data=0010|kernel=0010| Multiplication:00000000 | regA:00000100 | Addition:00000000 | regB:00000100 |address:00 RAM:00000000
+# KERNEL: E=0|T=0000000010000000|PC=00|Demux:0000|address=0001|data=0010|kernel=0010| Multiplication:00000000 | regA:00000100 | Addition:00000000 | regB:00000100 |address:00 RAM:00000000
+# KERNEL: E=0|T=0000000000000010|PC=00|Demux:0001|address=0010|data=0011|kernel=0010| Multiplication:00000000 | regA:00000100 | Addition:00000000 | regB:00000100 |address:00 RAM:00000000
+# KERNEL: E=0|T=0000000000000100|PC=00|Demux:0000|address=0010|data=0011|kernel=0010| Multiplication:00000000 | regA:00000100 | Addition:00000000 | regB:00000100 |address:00 RAM:00000000
+# KERNEL: E=0|T=0000000000001000|PC=00|Demux:0000|address=0010|data=0011|kernel=0001| Multiplication:00000000 | regA:00000100 | Addition:00000000 | regB:00000100 |address:00 RAM:00000000
+# KERNEL: E=0|T=0000000000010000|PC=00|Demux:0000|address=0010|data=0011|kernel=0001| Multiplication:00000011 | regA:00000100 | Addition:00000000 | regB:00000100 |address:00 RAM:00000000
+# KERNEL: E=0|T=0000000000100000|PC=00|Demux:0000|address=0010|data=0011|kernel=0001| Multiplication:00000000 | regA:00000011 | Addition:00000111 | regB:00000100 |address:00 RAM:00000000
+# KERNEL: E=0|T=0000000001000000|PC=00|Demux:0000|address=0010|data=0011|kernel=0001| Multiplication:00000000 | regA:00000011 | Addition:00000000 | regB:00000111 |address:00 RAM:00000000
+# KERNEL: E=0|T=0000000010000000|PC=00|Demux:0000|address=0010|data=0011|kernel=0001| Multiplication:00000000 | regA:00000011 | Addition:00000000 | regB:00000111 |address:00 RAM:00000000
+# KERNEL: E=0|T=0000000000000010|PC=00|Demux:0001|address=0100|data=0001|kernel=0001| Multiplication:00000000 | regA:00000011 | Addition:00000000 | regB:00000111 |address:00 RAM:00000000
+# KERNEL: E=0|T=0000000000000100|PC=00|Demux:0000|address=0100|data=0001|kernel=0001| Multiplication:00000000 | regA:00000011 | Addition:00000000 | regB:00000111 |address:00 RAM:00000000
+# KERNEL: E=0|T=0000000000001000|PC=00|Demux:0000|address=0100|data=0001|kernel=0000| Multiplication:00000000 | regA:00000011 | Addition:00000000 | regB:00000111 |address:00 RAM:00000000
+# KERNEL: E=0|T=0000000000010000|PC=00|Demux:0000|address=0100|data=0001|kernel=0000| Multiplication:00000000 | regA:00000011 | Addition:00000000 | regB:00000111 |address:00 RAM:00000000
+# KERNEL: E=0|T=0000000000100000|PC=00|Demux:0000|address=0100|data=0001|kernel=0000| Multiplication:00000000 | regA:00000000 | Addition:00000111 | regB:00000111 |address:00 RAM:00000000
+# KERNEL: E=0|T=0000000001000000|PC=00|Demux:0000|address=0100|data=0001|kernel=0000| Multiplication:00000000 | regA:00000000 | Addition:00000000 | regB:00000111 |address:00 RAM:00000000
+# KERNEL: E=0|T=0000000010000000|PC=00|Demux:0000|address=0100|data=0001|kernel=0000| Multiplication:00000000 | regA:00000000 | Addition:00000000 | regB:00000111 |address:00 RAM:00000000
+# KERNEL: E=0|T=0000000000000010|PC=00|Demux:0001|address=0101|data=0000|kernel=0000| Multiplication:00000000 | regA:00000000 | Addition:00000000 | regB:00000111 |address:00 RAM:00000000
+# KERNEL: E=0|T=0000000000000100|PC=00|Demux:0000|address=0101|data=0000|kernel=0000| Multiplication:00000000 | regA:00000000 | Addition:00000000 | regB:00000111 |address:00 RAM:00000000
+# KERNEL: E=0|T=0000000000001000|PC=00|Demux:0000|address=0101|data=0000|kernel=0001| Multiplication:00000000 | regA:00000000 | Addition:00000000 | regB:00000111 |address:00 RAM:00000000
+# KERNEL: E=0|T=0000000000010000|PC=00|Demux:0000|address=0101|data=0000|kernel=0001| Multiplication:00000000 | regA:00000000 | Addition:00000000 | regB:00000111 |address:00 RAM:00000000
+# KERNEL: E=0|T=0000000000100000|PC=00|Demux:0000|address=0101|data=0000|kernel=0001| Multiplication:00000000 | regA:00000000 | Addition:00000111 | regB:00000111 |address:00 RAM:00000000
+# KERNEL: E=0|T=0000000001000000|PC=00|Demux:0000|address=0101|data=0000|kernel=0001| Multiplication:00000000 | regA:00000000 | Addition:00000000 | regB:00000111 |address:00 RAM:00000000
+# KERNEL: E=0|T=0000000010000000|PC=00|Demux:0000|address=0101|data=0000|kernel=0001| Multiplication:00000000 | regA:00000000 | Addition:00000000 | regB:00000111 |address:00 RAM:00000000
+# KERNEL: E=0|T=0000000000000010|PC=00|Demux:0001|address=0110|data=0001|kernel=0001| Multiplication:00000000 | regA:00000000 | Addition:00000000 | regB:00000111 |address:00 RAM:00000000
+# KERNEL: E=0|T=0000000000000100|PC=00|Demux:0000|address=0110|data=0001|kernel=0001| Multiplication:00000000 | regA:00000000 | Addition:00000000 | regB:00000111 |address:00 RAM:00000000
+# KERNEL: E=0|T=0000000000001000|PC=00|Demux:0000|address=0110|data=0001|kernel=0010| Multiplication:00000000 | regA:00000000 | Addition:00000000 | regB:00000111 |address:00 RAM:00000000
+# KERNEL: E=0|T=0000000000010000|PC=00|Demux:0000|address=0110|data=0001|kernel=0010| Multiplication:00000010 | regA:00000000 | Addition:00000000 | regB:00000111 |address:00 RAM:00000000
+# KERNEL: E=0|T=0000000000100000|PC=00|Demux:0000|address=0110|data=0001|kernel=0010| Multiplication:00000000 | regA:00000010 | Addition:00001001 | regB:00000111 |address:00 RAM:00000000
+# KERNEL: E=0|T=0000000001000000|PC=00|Demux:0000|address=0110|data=0001|kernel=0010| Multiplication:00000000 | regA:00000010 | Addition:00000000 | regB:00001001 |address:00 RAM:00000000
+# KERNEL: E=0|T=0000000010000000|PC=00|Demux:0000|address=0110|data=0001|kernel=0010| Multiplication:00000000 | regA:00000010 | Addition:00000000 | regB:00001001 |address:00 RAM:00000000
+# KERNEL: E=0|T=0000000000000010|PC=00|Demux:0001|address=1000|data=0011|kernel=0010| Multiplication:00000000 | regA:00000010 | Addition:00000000 | regB:00001001 |address:00 RAM:00000000
+# KERNEL: E=0|T=0000000000000100|PC=00|Demux:0000|address=1000|data=0011|kernel=0010| Multiplication:00000000 | regA:00000010 | Addition:00000000 | regB:00001001 |address:00 RAM:00000000
+# KERNEL: E=0|T=0000000000001000|PC=00|Demux:0000|address=1000|data=0011|kernel=0001| Multiplication:00000000 | regA:00000010 | Addition:00000000 | regB:00001001 |address:00 RAM:00000000
+# KERNEL: E=0|T=0000000000010000|PC=00|Demux:0000|address=1000|data=0011|kernel=0001| Multiplication:00000011 | regA:00000010 | Addition:00000000 | regB:00001001 |address:00 RAM:00000000
+# KERNEL: E=0|T=0000000000100000|PC=00|Demux:0000|address=1000|data=0011|kernel=0001| Multiplication:00000000 | regA:00000011 | Addition:00001100 | regB:00001001 |address:00 RAM:00000000
+# KERNEL: E=0|T=0000000001000000|PC=00|Demux:0000|address=1000|data=0011|kernel=0001| Multiplication:00000000 | regA:00000011 | Addition:00000000 | regB:00001100 |address:00 RAM:00000000
+# KERNEL: E=0|T=0000000010000000|PC=00|Demux:0000|address=1000|data=0011|kernel=0001| Multiplication:00000000 | regA:00000011 | Addition:00000000 | regB:00001100 |address:00 RAM:00000000
+# KERNEL: E=0|T=0000000000000010|PC=00|Demux:0001|address=1001|data=0010|kernel=0001| Multiplication:00000000 | regA:00000011 | Addition:00000000 | regB:00001100 |address:00 RAM:00000000
+# KERNEL: E=0|T=0000000000000100|PC=00|Demux:0000|address=1001|data=0010|kernel=0001| Multiplication:00000000 | regA:00000011 | Addition:00000000 | regB:00001100 |address:00 RAM:00000000
+# KERNEL: E=0|T=0000000000001000|PC=00|Demux:0000|address=1001|data=0010|kernel=0000| Multiplication:00000000 | regA:00000011 | Addition:00000000 | regB:00001100 |address:00 RAM:00000000
+# KERNEL: E=0|T=0000000000010000|PC=00|Demux:0000|address=1001|data=0010|kernel=0000| Multiplication:00000000 | regA:00000011 | Addition:00000000 | regB:00001100 |address:00 RAM:00000000
+# KERNEL: E=0|T=0000000000100000|PC=00|Demux:0000|address=1001|data=0010|kernel=0000| Multiplication:00000000 | regA:00000000 | Addition:00001100 | regB:00001100 |address:00 RAM:00000000
+# KERNEL: E=0|T=0000000001000000|PC=00|Demux:0000|address=1001|data=0010|kernel=0000| Multiplication:00000000 | regA:00000000 | Addition:00000000 | regB:00001100 |address:00 RAM:00000000
+# KERNEL: E=0|T=0000000010000000|PC=00|Demux:0000|address=1001|data=0010|kernel=0000| Multiplication:00000000 | regA:00000000 | Addition:00000000 | regB:00001100 |address:00 RAM:00000000
+# KERNEL: E=0|T=0000000000000010|PC=00|Demux:0001|address=1010|data=0011|kernel=0000| Multiplication:00000000 | regA:00000000 | Addition:00000000 | regB:00001100 |address:00 RAM:00000000
+# KERNEL: E=0|T=0000000000000100|PC=00|Demux:0000|address=1010|data=0011|kernel=0000| Multiplication:00000000 | regA:00000000 | Addition:00000000 | regB:00001100 |address:00 RAM:00000000
+# KERNEL: E=1|T=0000000000001000|PC=00|Demux:0000|address=1010|data=0011|kernel=0001| Multiplication:00000000 | regA:00000000 | Addition:00000000 | regB:00001100 |address:00 RAM:00000000
+# KERNEL: E=1|T=0000000000010000|PC=00|Demux:0000|address=1010|data=0011|kernel=0001| Multiplication:00000011 | regA:00000000 | Addition:00000000 | regB:00001100 |address:00 RAM:00000000
+# KERNEL: E=1|T=0000000000100000|PC=00|Demux:0000|address=1010|data=0011|kernel=0001| Multiplication:00000000 | regA:00000011 | Addition:00001111 | regB:00001100 |address:00 RAM:00000000
+# KERNEL: E=1|T=0000000001000000|PC=00|Demux:0000|address=1010|data=0011|kernel=0001| Multiplication:00000000 | regA:00000011 | Addition:00000000 | regB:00001111 |address:00 RAM:00000000
+# KERNEL: E=1|T=0000000010000000|PC=00|Demux:0000|address=1010|data=0011|kernel=0001| Multiplication:00000000 | regA:00000011 | Addition:00000000 | regB:00001111 |address:00 RAM:00000000
+# KERNEL: E=1|T=0000000100000000|PC=00|Demux:0000|address=1010|data=0011|kernel=0001| Multiplication:00000000 | regA:00000011 | Addition:00000000 | regB:00001111 |address:00 RAM:00001111
+# KERNEL: E=1|T=0000000000000001|PC=01|Demux:0000|address=0000|data=0001|kernel=0001| Multiplication:00000000 | regA:00000011 | Addition:00000000 | regB:00000000 |address:01 RAM:00000000
+# KERNEL: E=1|T=0000000000000010|PC=01|Demux:0010|address=0010|data=0011|kernel=0001| Multiplication:00000000 | regA:00000011 | Addition:00000000 | regB:00000000 |address:01 RAM:00000000
+# KERNEL: E=1|T=0000000000000100|PC=01|Demux:0000|address=0010|data=0011|kernel=0001| Multiplication:00000000 | regA:00000011 | Addition:00000000 | regB:00000000 |address:01 RAM:00000000
+# KERNEL: E=0|T=0000000000001000|PC=01|Demux:0000|address=0010|data=0011|kernel=0001| Multiplication:00000000 | regA:00000011 | Addition:00000000 | regB:00000000 |address:01 RAM:00000000
+# KERNEL: E=0|T=0000000000010000|PC=01|Demux:0000|address=0010|data=0011|kernel=0001| Multiplication:00000011 | regA:00000011 | Addition:00000000 | regB:00000000 |address:01 RAM:00000000
+# KERNEL: E=0|T=0000000000100000|PC=01|Demux:0000|address=0010|data=0011|kernel=0001| Multiplication:00000000 | regA:00000011 | Addition:00000011 | regB:00000000 |address:01 RAM:00000000
+# KERNEL: E=0|T=0000000001000000|PC=01|Demux:0000|address=0010|data=0011|kernel=0001| Multiplication:00000000 | regA:00000011 | Addition:00000000 | regB:00000011 |address:01 RAM:00000000
+# KERNEL: E=0|T=0000000010000000|PC=01|Demux:0000|address=0010|data=0011|kernel=0001| Multiplication:00000000 | regA:00000011 | Addition:00000000 | regB:00000011 |address:01 RAM:00000000
+# KERNEL: E=0|T=0000000000000010|PC=01|Demux:0010|address=0011|data=0010|kernel=0001| Multiplication:00000000 | regA:00000011 | Addition:00000000 | regB:00000011 |address:01 RAM:00000000
+# KERNEL: E=0|T=0000000000000100|PC=01|Demux:0000|address=0011|data=0010|kernel=0001| Multiplication:00000000 | regA:00000011 | Addition:00000000 | regB:00000011 |address:01 RAM:00000000
+# KERNEL: E=0|T=0000000000001000|PC=01|Demux:0000|address=0011|data=0010|kernel=0010| Multiplication:00000000 | regA:00000011 | Addition:00000000 | regB:00000011 |address:01 RAM:00000000
+# KERNEL: E=0|T=0000000000010000|PC=01|Demux:0000|address=0011|data=0010|kernel=0010| Multiplication:00000100 | regA:00000011 | Addition:00000000 | regB:00000011 |address:01 RAM:00000000
+# KERNEL: E=0|T=0000000000100000|PC=01|Demux:0000|address=0011|data=0010|kernel=0010| Multiplication:00000000 | regA:00000100 | Addition:00000111 | regB:00000011 |address:01 RAM:00000000
+# KERNEL: E=0|T=0000000001000000|PC=01|Demux:0000|address=0011|data=0010|kernel=0010| Multiplication:00000000 | regA:00000100 | Addition:00000000 | regB:00000111 |address:01 RAM:00000000
+# KERNEL: E=0|T=0000000010000000|PC=01|Demux:0000|address=0011|data=0010|kernel=0010| Multiplication:00000000 | regA:00000100 | Addition:00000000 | regB:00000111 |address:01 RAM:00000000
+# KERNEL: E=0|T=0000000000000010|PC=01|Demux:0010|address=0101|data=0000|kernel=0010| Multiplication:00000000 | regA:00000100 | Addition:00000000 | regB:00000111 |address:01 RAM:00000000
+# KERNEL: E=0|T=0000000000000100|PC=01|Demux:0000|address=0101|data=0000|kernel=0010| Multiplication:00000000 | regA:00000100 | Addition:00000000 | regB:00000111 |address:01 RAM:00000000
+# KERNEL: E=0|T=0000000000001000|PC=01|Demux:0000|address=0101|data=0000|kernel=0001| Multiplication:00000000 | regA:00000100 | Addition:00000000 | regB:00000111 |address:01 RAM:00000000
+# KERNEL: E=0|T=0000000000010000|PC=01|Demux:0000|address=0101|data=0000|kernel=0001| Multiplication:00000000 | regA:00000100 | Addition:00000000 | regB:00000111 |address:01 RAM:00000000
+# KERNEL: E=0|T=0000000000100000|PC=01|Demux:0000|address=0101|data=0000|kernel=0001| Multiplication:00000000 | regA:00000000 | Addition:00000111 | regB:00000111 |address:01 RAM:00000000
+# KERNEL: E=0|T=0000000001000000|PC=01|Demux:0000|address=0101|data=0000|kernel=0001| Multiplication:00000000 | regA:00000000 | Addition:00000000 | regB:00000111 |address:01 RAM:00000000
+# KERNEL: E=0|T=0000000010000000|PC=01|Demux:0000|address=0101|data=0000|kernel=0001| Multiplication:00000000 | regA:00000000 | Addition:00000000 | regB:00000111 |address:01 RAM:00000000
+# KERNEL: E=0|T=0000000000000010|PC=01|Demux:0010|address=0110|data=0001|kernel=0001| Multiplication:00000000 | regA:00000000 | Addition:00000000 | regB:00000111 |address:01 RAM:00000000
+# KERNEL: E=0|T=0000000000000100|PC=01|Demux:0000|address=0110|data=0001|kernel=0001| Multiplication:00000000 | regA:00000000 | Addition:00000000 | regB:00000111 |address:01 RAM:00000000
+# KERNEL: E=0|T=0000000000001000|PC=01|Demux:0000|address=0110|data=0001|kernel=0000| Multiplication:00000000 | regA:00000000 | Addition:00000000 | regB:00000111 |address:01 RAM:00000000
+# KERNEL: E=0|T=0000000000010000|PC=01|Demux:0000|address=0110|data=0001|kernel=0000| Multiplication:00000000 | regA:00000000 | Addition:00000000 | regB:00000111 |address:01 RAM:00000000
+# KERNEL: E=0|T=0000000000100000|PC=01|Demux:0000|address=0110|data=0001|kernel=0000| Multiplication:00000000 | regA:00000000 | Addition:00000111 | regB:00000111 |address:01 RAM:00000000
+# KERNEL: E=0|T=0000000001000000|PC=01|Demux:0000|address=0110|data=0001|kernel=0000| Multiplication:00000000 | regA:00000000 | Addition:00000000 | regB:00000111 |address:01 RAM:00000000
+# KERNEL: E=0|T=0000000010000000|PC=01|Demux:0000|address=0110|data=0001|kernel=0000| Multiplication:00000000 | regA:00000000 | Addition:00000000 | regB:00000111 |address:01 RAM:00000000
+# KERNEL: E=0|T=0000000000000010|PC=01|Demux:0010|address=0111|data=0001|kernel=0000| Multiplication:00000000 | regA:00000000 | Addition:00000000 | regB:00000111 |address:01 RAM:00000000
+# KERNEL: E=0|T=0000000000000100|PC=01|Demux:0000|address=0111|data=0001|kernel=0000| Multiplication:00000000 | regA:00000000 | Addition:00000000 | regB:00000111 |address:01 RAM:00000000
+# KERNEL: E=0|T=0000000000001000|PC=01|Demux:0000|address=0111|data=0001|kernel=0001| Multiplication:00000000 | regA:00000000 | Addition:00000000 | regB:00000111 |address:01 RAM:00000000
+# KERNEL: E=0|T=0000000000010000|PC=01|Demux:0000|address=0111|data=0001|kernel=0001| Multiplication:00000001 | regA:00000000 | Addition:00000000 | regB:00000111 |address:01 RAM:00000000
+# KERNEL: E=0|T=0000000000100000|PC=01|Demux:0000|address=0111|data=0001|kernel=0001| Multiplication:00000000 | regA:00000001 | Addition:00001000 | regB:00000111 |address:01 RAM:00000000
+# KERNEL: E=0|T=0000000001000000|PC=01|Demux:0000|address=0111|data=0001|kernel=0001| Multiplication:00000000 | regA:00000001 | Addition:00000000 | regB:00001000 |address:01 RAM:00000000
+# KERNEL: E=0|T=0000000010000000|PC=01|Demux:0000|address=0111|data=0001|kernel=0001| Multiplication:00000000 | regA:00000001 | Addition:00000000 | regB:00001000 |address:01 RAM:00000000
+# KERNEL: E=0|T=0000000000000010|PC=01|Demux:0010|address=1001|data=0010|kernel=0001| Multiplication:00000000 | regA:00000001 | Addition:00000000 | regB:00001000 |address:01 RAM:00000000
+# KERNEL: E=0|T=0000000000000100|PC=01|Demux:0000|address=1001|data=0010|kernel=0001| Multiplication:00000000 | regA:00000001 | Addition:00000000 | regB:00001000 |address:01 RAM:00000000
+# KERNEL: E=0|T=0000000000001000|PC=01|Demux:0000|address=1001|data=0010|kernel=0010| Multiplication:00000000 | regA:00000001 | Addition:00000000 | regB:00001000 |address:01 RAM:00000000
+# KERNEL: E=0|T=0000000000010000|PC=01|Demux:0000|address=1001|data=0010|kernel=0010| Multiplication:00000100 | regA:00000001 | Addition:00000000 | regB:00001000 |address:01 RAM:00000000
+# KERNEL: E=0|T=0000000000100000|PC=01|Demux:0000|address=1001|data=0010|kernel=0010| Multiplication:00000000 | regA:00000100 | Addition:00001100 | regB:00001000 |address:01 RAM:00000000
+# KERNEL: E=0|T=0000000001000000|PC=01|Demux:0000|address=1001|data=0010|kernel=0010| Multiplication:00000000 | regA:00000100 | Addition:00000000 | regB:00001100 |address:01 RAM:00000000
+# KERNEL: E=0|T=0000000010000000|PC=01|Demux:0000|address=1001|data=0010|kernel=0010| Multiplication:00000000 | regA:00000100 | Addition:00000000 | regB:00001100 |address:01 RAM:00000000
+# KERNEL: E=0|T=0000000000000010|PC=01|Demux:0010|address=1010|data=0011|kernel=0010| Multiplication:00000000 | regA:00000100 | Addition:00000000 | regB:00001100 |address:01 RAM:00000000
+# KERNEL: E=0|T=0000000000000100|PC=01|Demux:0000|address=1010|data=0011|kernel=0010| Multiplication:00000000 | regA:00000100 | Addition:00000000 | regB:00001100 |address:01 RAM:00000000
+# KERNEL: E=0|T=0000000000001000|PC=01|Demux:0000|address=1010|data=0011|kernel=0001| Multiplication:00000000 | regA:00000100 | Addition:00000000 | regB:00001100 |address:01 RAM:00000000
+# KERNEL: E=0|T=0000000000010000|PC=01|Demux:0000|address=1010|data=0011|kernel=0001| Multiplication:00000011 | regA:00000100 | Addition:00000000 | regB:00001100 |address:01 RAM:00000000
+# KERNEL: E=0|T=0000000000100000|PC=01|Demux:0000|address=1010|data=0011|kernel=0001| Multiplication:00000000 | regA:00000011 | Addition:00001111 | regB:00001100 |address:01 RAM:00000000
+# KERNEL: E=0|T=0000000001000000|PC=01|Demux:0000|address=1010|data=0011|kernel=0001| Multiplication:00000000 | regA:00000011 | Addition:00000000 | regB:00001111 |address:01 RAM:00000000
+# KERNEL: E=0|T=0000000010000000|PC=01|Demux:0000|address=1010|data=0011|kernel=0001| Multiplication:00000000 | regA:00000011 | Addition:00000000 | regB:00001111 |address:01 RAM:00000000
+# KERNEL: E=0|T=0000000000000010|PC=01|Demux:0010|address=1011|data=0010|kernel=0001| Multiplication:00000000 | regA:00000011 | Addition:00000000 | regB:00001111 |address:01 RAM:00000000
+# KERNEL: E=0|T=0000000000000100|PC=01|Demux:0000|address=1011|data=0010|kernel=0001| Multiplication:00000000 | regA:00000011 | Addition:00000000 | regB:00001111 |address:01 RAM:00000000
+# KERNEL: E=0|T=0000000000001000|PC=01|Demux:0000|address=1011|data=0010|kernel=0000| Multiplication:00000000 | regA:00000011 | Addition:00000000 | regB:00001111 |address:01 RAM:00000000
+# KERNEL: E=0|T=0000000000010000|PC=01|Demux:0000|address=1011|data=0010|kernel=0000| Multiplication:00000000 | regA:00000011 | Addition:00000000 | regB:00001111 |address:01 RAM:00000000
+# KERNEL: E=0|T=0000000000100000|PC=01|Demux:0000|address=1011|data=0010|kernel=0000| Multiplication:00000000 | regA:00000000 | Addition:00001111 | regB:00001111 |address:01 RAM:00000000
+# KERNEL: E=0|T=0000000001000000|PC=01|Demux:0000|address=1011|data=0010|kernel=0000| Multiplication:00000000 | regA:00000000 | Addition:00000000 | regB:00001111 |address:01 RAM:00000000
+# KERNEL: E=0|T=0000000010000000|PC=01|Demux:0000|address=1011|data=0010|kernel=0000| Multiplication:00000000 | regA:00000000 | Addition:00000000 | regB:00001111 |address:01 RAM:00000000
+# KERNEL: E=0|T=0000000000000010|PC=01|Demux:0010|address=0001|data=0010|kernel=0000| Multiplication:00000000 | regA:00000000 | Addition:00000000 | regB:00001111 |address:01 RAM:00000000
+# KERNEL: E=0|T=0000000000000100|PC=01|Demux:0000|address=0001|data=0010|kernel=0000| Multiplication:00000000 | regA:00000000 | Addition:00000000 | regB:00001111 |address:01 RAM:00000000
+# KERNEL: E=1|T=0000000000001000|PC=01|Demux:0000|address=0001|data=0010|kernel=0001| Multiplication:00000000 | regA:00000000 | Addition:00000000 | regB:00001111 |address:01 RAM:00000000
+# KERNEL: E=1|T=0000000000010000|PC=01|Demux:0000|address=0001|data=0010|kernel=0001| Multiplication:00000010 | regA:00000000 | Addition:00000000 | regB:00001111 |address:01 RAM:00000000
+# KERNEL: E=1|T=0000000000100000|PC=01|Demux:0000|address=0001|data=0010|kernel=0001| Multiplication:00000000 | regA:00000010 | Addition:00010001 | regB:00001111 |address:01 RAM:00000000
+# KERNEL: E=1|T=0000000001000000|PC=01|Demux:0000|address=0001|data=0010|kernel=0001| Multiplication:00000000 | regA:00000010 | Addition:00000000 | regB:00010001 |address:01 RAM:00000000
+# KERNEL: E=1|T=0000000010000000|PC=01|Demux:0000|address=0001|data=0010|kernel=0001| Multiplication:00000000 | regA:00000010 | Addition:00000000 | regB:00010001 |address:01 RAM:00000000
+# KERNEL: E=1|T=0000000100000000|PC=01|Demux:0000|address=0001|data=0010|kernel=0001| Multiplication:00000000 | regA:00000010 | Addition:00000000 | regB:00010001 |address:01 RAM:00010001
+# KERNEL: E=1|T=0000000000000001|PC=10|Demux:0000|address=0000|data=0001|kernel=0001| Multiplication:00000000 | regA:00000010 | Addition:00000000 | regB:00000000 |address:10 RAM:00000000
+# KERNEL: E=1|T=0000000000000010|PC=10|Demux:0100|address=1001|data=0010|kernel=0001| Multiplication:00000000 | regA:00000010 | Addition:00000000 | regB:00000000 |address:10 RAM:00000000
+# KERNEL: E=1|T=0000000000000100|PC=10|Demux:0000|address=1001|data=0010|kernel=0001| Multiplication:00000000 | regA:00000010 | Addition:00000000 | regB:00000000 |address:10 RAM:00000000
+# KERNEL: E=0|T=0000000000001000|PC=10|Demux:0000|address=1001|data=0010|kernel=0001| Multiplication:00000000 | regA:00000010 | Addition:00000000 | regB:00000000 |address:10 RAM:00000000
+# KERNEL: E=0|T=0000000000010000|PC=10|Demux:0000|address=1001|data=0010|kernel=0001| Multiplication:00000010 | regA:00000010 | Addition:00000000 | regB:00000000 |address:10 RAM:00000000
+# KERNEL: E=0|T=0000000000100000|PC=10|Demux:0000|address=1001|data=0010|kernel=0001| Multiplication:00000000 | regA:00000010 | Addition:00000010 | regB:00000000 |address:10 RAM:00000000
+# KERNEL: E=0|T=0000000001000000|PC=10|Demux:0000|address=1001|data=0010|kernel=0001| Multiplication:00000000 | regA:00000010 | Addition:00000000 | regB:00000010 |address:10 RAM:00000000
+# KERNEL: E=0|T=0000000010000000|PC=10|Demux:0000|address=1001|data=0010|kernel=0001| Multiplication:00000000 | regA:00000010 | Addition:00000000 | regB:00000010 |address:10 RAM:00000000
+# KERNEL: E=0|T=0000000000000010|PC=10|Demux:0100|address=1010|data=0011|kernel=0001| Multiplication:00000000 | regA:00000010 | Addition:00000000 | regB:00000010 |address:10 RAM:00000000
+# KERNEL: E=0|T=0000000000000100|PC=10|Demux:0000|address=1010|data=0011|kernel=0001| Multiplication:00000000 | regA:00000010 | Addition:00000000 | regB:00000010 |address:10 RAM:00000000
+# KERNEL: E=0|T=0000000000001000|PC=10|Demux:0000|address=1010|data=0011|kernel=0010| Multiplication:00000000 | regA:00000010 | Addition:00000000 | regB:00000010 |address:10 RAM:00000000
+# KERNEL: E=0|T=0000000000010000|PC=10|Demux:0000|address=1010|data=0011|kernel=0010| Multiplication:00000110 | regA:00000010 | Addition:00000000 | regB:00000010 |address:10 RAM:00000000
+# KERNEL: E=0|T=0000000000100000|PC=10|Demux:0000|address=1010|data=0011|kernel=0010| Multiplication:00000000 | regA:00000110 | Addition:00001000 | regB:00000010 |address:10 RAM:00000000
+# KERNEL: E=0|T=0000000001000000|PC=10|Demux:0000|address=1010|data=0011|kernel=0010| Multiplication:00000000 | regA:00000110 | Addition:00000000 | regB:00001000 |address:10 RAM:00000000
+# KERNEL: E=0|T=0000000010000000|PC=10|Demux:0000|address=1010|data=0011|kernel=0010| Multiplication:00000000 | regA:00000110 | Addition:00000000 | regB:00001000 |address:10 RAM:00000000
+# KERNEL: E=0|T=0000000000000010|PC=10|Demux:0100|address=1100|data=0011|kernel=0010| Multiplication:00000000 | regA:00000110 | Addition:00000000 | regB:00001000 |address:10 RAM:00000000
+# KERNEL: E=0|T=0000000000000100|PC=10|Demux:0000|address=1100|data=0011|kernel=0010| Multiplication:00000000 | regA:00000110 | Addition:00000000 | regB:00001000 |address:10 RAM:00000000
+# KERNEL: E=0|T=0000000000001000|PC=10|Demux:0000|address=1100|data=0011|kernel=0001| Multiplication:00000000 | regA:00000110 | Addition:00000000 | regB:00001000 |address:10 RAM:00000000
+# KERNEL: E=0|T=0000000000010000|PC=10|Demux:0000|address=1100|data=0011|kernel=0001| Multiplication:00000011 | regA:00000110 | Addition:00000000 | regB:00001000 |address:10 RAM:00000000
+# KERNEL: E=0|T=0000000000100000|PC=10|Demux:0000|address=1100|data=0011|kernel=0001| Multiplication:00000000 | regA:00000011 | Addition:00001011 | regB:00001000 |address:10 RAM:00000000
+# KERNEL: E=0|T=0000000001000000|PC=10|Demux:0000|address=1100|data=0011|kernel=0001| Multiplication:00000000 | regA:00000011 | Addition:00000000 | regB:00001011 |address:10 RAM:00000000
+# KERNEL: E=0|T=0000000010000000|PC=10|Demux:0000|address=1100|data=0011|kernel=0001| Multiplication:00000000 | regA:00000011 | Addition:00000000 | regB:00001011 |address:10 RAM:00000000
+# KERNEL: E=0|T=0000000000000010|PC=10|Demux:0100|address=1101|data=0011|kernel=0001| Multiplication:00000000 | regA:00000011 | Addition:00000000 | regB:00001011 |address:10 RAM:00000000
+# KERNEL: E=0|T=0000000000000100|PC=10|Demux:0000|address=1101|data=0011|kernel=0001| Multiplication:00000000 | regA:00000011 | Addition:00000000 | regB:00001011 |address:10 RAM:00000000
+# KERNEL: E=0|T=0000000000001000|PC=10|Demux:0000|address=1101|data=0011|kernel=0000| Multiplication:00000000 | regA:00000011 | Addition:00000000 | regB:00001011 |address:10 RAM:00000000
+# KERNEL: E=0|T=0000000000010000|PC=10|Demux:0000|address=1101|data=0011|kernel=0000| Multiplication:00000000 | regA:00000011 | Addition:00000000 | regB:00001011 |address:10 RAM:00000000
+# KERNEL: E=0|T=0000000000100000|PC=10|Demux:0000|address=1101|data=0011|kernel=0000| Multiplication:00000000 | regA:00000000 | Addition:00001011 | regB:00001011 |address:10 RAM:00000000
+# KERNEL: E=0|T=0000000001000000|PC=10|Demux:0000|address=1101|data=0011|kernel=0000| Multiplication:00000000 | regA:00000000 | Addition:00000000 | regB:00001011 |address:10 RAM:00000000
+# KERNEL: E=0|T=0000000010000000|PC=10|Demux:0000|address=1101|data=0011|kernel=0000| Multiplication:00000000 | regA:00000000 | Addition:00000000 | regB:00001011 |address:10 RAM:00000000
+# KERNEL: E=0|T=0000000000000010|PC=10|Demux:0100|address=1110|data=0011|kernel=0000| Multiplication:00000000 | regA:00000000 | Addition:00000000 | regB:00001011 |address:10 RAM:00000000
+# KERNEL: E=0|T=0000000000000100|PC=10|Demux:0000|address=1110|data=0011|kernel=0000| Multiplication:00000000 | regA:00000000 | Addition:00000000 | regB:00001011 |address:10 RAM:00000000
+# KERNEL: E=0|T=0000000000001000|PC=10|Demux:0000|address=1110|data=0011|kernel=0001| Multiplication:00000000 | regA:00000000 | Addition:00000000 | regB:00001011 |address:10 RAM:00000000
+# KERNEL: E=0|T=0000000000010000|PC=10|Demux:0000|address=1110|data=0011|kernel=0001| Multiplication:00000011 | regA:00000000 | Addition:00000000 | regB:00001011 |address:10 RAM:00000000
+# KERNEL: E=0|T=0000000000100000|PC=10|Demux:0000|address=1110|data=0011|kernel=0001| Multiplication:00000000 | regA:00000011 | Addition:00001110 | regB:00001011 |address:10 RAM:00000000
+# KERNEL: E=0|T=0000000001000000|PC=10|Demux:0000|address=1110|data=0011|kernel=0001| Multiplication:00000000 | regA:00000011 | Addition:00000000 | regB:00001110 |address:10 RAM:00000000
+# KERNEL: E=0|T=0000000010000000|PC=10|Demux:0000|address=1110|data=0011|kernel=0001| Multiplication:00000000 | regA:00000011 | Addition:00000000 | regB:00001110 |address:10 RAM:00000000
+# KERNEL: E=0|T=0000000000000010|PC=10|Demux:0100|address=0100|data=0001|kernel=0001| Multiplication:00000000 | regA:00000011 | Addition:00000000 | regB:00001110 |address:10 RAM:00000000
+# KERNEL: E=0|T=0000000000000100|PC=10|Demux:0000|address=0100|data=0001|kernel=0001| Multiplication:00000000 | regA:00000011 | Addition:00000000 | regB:00001110 |address:10 RAM:00000000
+# KERNEL: E=0|T=0000000000001000|PC=10|Demux:0000|address=0100|data=0001|kernel=0010| Multiplication:00000000 | regA:00000011 | Addition:00000000 | regB:00001110 |address:10 RAM:00000000
+# KERNEL: E=0|T=0000000000010000|PC=10|Demux:0000|address=0100|data=0001|kernel=0010| Multiplication:00000010 | regA:00000011 | Addition:00000000 | regB:00001110 |address:10 RAM:00000000
+# KERNEL: E=0|T=0000000000100000|PC=10|Demux:0000|address=0100|data=0001|kernel=0010| Multiplication:00000000 | regA:00000010 | Addition:00010000 | regB:00001110 |address:10 RAM:00000000
+# KERNEL: E=0|T=0000000001000000|PC=10|Demux:0000|address=0100|data=0001|kernel=0010| Multiplication:00000000 | regA:00000010 | Addition:00000000 | regB:00010000 |address:10 RAM:00000000
+# KERNEL: E=0|T=0000000010000000|PC=10|Demux:0000|address=0100|data=0001|kernel=0010| Multiplication:00000000 | regA:00000010 | Addition:00000000 | regB:00010000 |address:10 RAM:00000000
+# KERNEL: E=0|T=0000000000000010|PC=10|Demux:0100|address=0101|data=0000|kernel=0010| Multiplication:00000000 | regA:00000010 | Addition:00000000 | regB:00010000 |address:10 RAM:00000000
+# KERNEL: E=0|T=0000000000000100|PC=10|Demux:0000|address=0101|data=0000|kernel=0010| Multiplication:00000000 | regA:00000010 | Addition:00000000 | regB:00010000 |address:10 RAM:00000000
+# KERNEL: E=0|T=0000000000001000|PC=10|Demux:0000|address=0101|data=0000|kernel=0001| Multiplication:00000000 | regA:00000010 | Addition:00000000 | regB:00010000 |address:10 RAM:00000000
+# KERNEL: E=0|T=0000000000010000|PC=10|Demux:0000|address=0101|data=0000|kernel=0001| Multiplication:00000000 | regA:00000010 | Addition:00000000 | regB:00010000 |address:10 RAM:00000000
+# KERNEL: E=0|T=0000000000100000|PC=10|Demux:0000|address=0101|data=0000|kernel=0001| Multiplication:00000000 | regA:00000000 | Addition:00000000 | regB:00010000 |address:10 RAM:00000000
+# KERNEL: E=0|T=0000000001000000|PC=10|Demux:0000|address=0101|data=0000|kernel=0001| Multiplication:00000000 | regA:00000000 | Addition:00000000 | regB:00000000 |address:10 RAM:00000000
+# KERNEL: E=0|T=0000000010000000|PC=10|Demux:0000|address=0101|data=0000|kernel=0001| Multiplication:00000000 | regA:00000000 | Addition:00000000 | regB:00000000 |address:10 RAM:00000000
+# KERNEL: E=0|T=0000000000000010|PC=10|Demux:0100|address=0110|data=0001|kernel=0001| Multiplication:00000000 | regA:00000000 | Addition:00000000 | regB:00000000 |address:10 RAM:00000000
+# KERNEL: E=0|T=0000000000000100|PC=10|Demux:0000|address=0110|data=0001|kernel=0001| Multiplication:00000000 | regA:00000000 | Addition:00000000 | regB:00000000 |address:10 RAM:00000000
+# KERNEL: E=0|T=0000000000001000|PC=10|Demux:0000|address=0110|data=0001|kernel=0000| Multiplication:00000000 | regA:00000000 | Addition:00000000 | regB:00000000 |address:10 RAM:00000000
+# KERNEL: E=0|T=0000000000010000|PC=10|Demux:0000|address=0110|data=0001|kernel=0000| Multiplication:00000000 | regA:00000000 | Addition:00000000 | regB:00000000 |address:10 RAM:00000000
+# KERNEL: E=0|T=0000000000100000|PC=10|Demux:0000|address=0110|data=0001|kernel=0000| Multiplication:00000000 | regA:00000000 | Addition:00000000 | regB:00000000 |address:10 RAM:00000000
+# KERNEL: E=0|T=0000000001000000|PC=10|Demux:0000|address=0110|data=0001|kernel=0000| Multiplication:00000000 | regA:00000000 | Addition:00000000 | regB:00000000 |address:10 RAM:00000000
+# KERNEL: E=0|T=0000000010000000|PC=10|Demux:0000|address=0110|data=0001|kernel=0000| Multiplication:00000000 | regA:00000000 | Addition:00000000 | regB:00000000 |address:10 RAM:00000000
+# KERNEL: E=0|T=0000000000000010|PC=10|Demux:0100|address=1000|data=0011|kernel=0000| Multiplication:00000000 | regA:00000000 | Addition:00000000 | regB:00000000 |address:10 RAM:00000000
+# KERNEL: E=0|T=0000000000000100|PC=10|Demux:0000|address=1000|data=0011|kernel=0000| Multiplication:00000000 | regA:00000000 | Addition:00000000 | regB:00000000 |address:10 RAM:00000000
+# KERNEL: E=1|T=0000000000001000|PC=10|Demux:0000|address=1000|data=0011|kernel=0001| Multiplication:00000000 | regA:00000000 | Addition:00000000 | regB:00000000 |address:10 RAM:00000000
+# KERNEL: E=1|T=0000000000010000|PC=10|Demux:0000|address=1000|data=0011|kernel=0001| Multiplication:00000011 | regA:00000000 | Addition:00000000 | regB:00000000 |address:10 RAM:00000000
+# KERNEL: E=1|T=0000000000100000|PC=10|Demux:0000|address=1000|data=0011|kernel=0001| Multiplication:00000000 | regA:00000011 | Addition:00000011 | regB:00000000 |address:10 RAM:00000000
+# KERNEL: E=1|T=0000000001000000|PC=10|Demux:0000|address=1000|data=0011|kernel=0001| Multiplication:00000000 | regA:00000011 | Addition:00000000 | regB:00000011 |address:10 RAM:00000000
+# KERNEL: E=1|T=0000000010000000|PC=10|Demux:0000|address=1000|data=0011|kernel=0001| Multiplication:00000000 | regA:00000011 | Addition:00000000 | regB:00000011 |address:10 RAM:00000000
+# KERNEL: E=1|T=0000000100000000|PC=10|Demux:0000|address=1000|data=0011|kernel=0001| Multiplication:00000000 | regA:00000011 | Addition:00000000 | regB:00000011 |address:10 RAM:00000011
+# KERNEL: E=1|T=0000000000000001|PC=11|Demux:0000|address=0000|data=0001|kernel=0001| Multiplication:00000000 | regA:00000011 | Addition:00000000 | regB:00000000 |address:11 RAM:00000000
+# KERNEL: E=1|T=0000000000000010|PC=11|Demux:1000|address=1010|data=0011|kernel=0001| Multiplication:00000000 | regA:00000011 | Addition:00000000 | regB:00000000 |address:11 RAM:00000000
+# KERNEL: E=1|T=0000000000000100|PC=11|Demux:0000|address=1010|data=0011|kernel=0001| Multiplication:00000000 | regA:00000011 | Addition:00000000 | regB:00000000 |address:11 RAM:00000000
+# KERNEL: E=0|T=0000000000001000|PC=11|Demux:0000|address=1010|data=0011|kernel=0001| Multiplication:00000000 | regA:00000011 | Addition:00000000 | regB:00000000 |address:11 RAM:00000000
+# KERNEL: E=0|T=0000000000010000|PC=11|Demux:0000|address=1010|data=0011|kernel=0001| Multiplication:00000011 | regA:00000011 | Addition:00000000 | regB:00000000 |address:11 RAM:00000000
+# KERNEL: E=0|T=0000000000100000|PC=11|Demux:0000|address=1010|data=0011|kernel=0001| Multiplication:00000000 | regA:00000011 | Addition:00000011 | regB:00000000 |address:11 RAM:00000000
+# KERNEL: E=0|T=0000000001000000|PC=11|Demux:0000|address=1010|data=0011|kernel=0001| Multiplication:00000000 | regA:00000011 | Addition:00000000 | regB:00000011 |address:11 RAM:00000000
+# KERNEL: E=0|T=0000000010000000|PC=11|Demux:0000|address=1010|data=0011|kernel=0001| Multiplication:00000000 | regA:00000011 | Addition:00000000 | regB:00000011 |address:11 RAM:00000000
+# KERNEL: E=0|T=0000000000000010|PC=11|Demux:1000|address=1011|data=0010|kernel=0001| Multiplication:00000000 | regA:00000011 | Addition:00000000 | regB:00000011 |address:11 RAM:00000000
+# KERNEL: E=0|T=0000000000000100|PC=11|Demux:0000|address=1011|data=0010|kernel=0001| Multiplication:00000000 | regA:00000011 | Addition:00000000 | regB:00000011 |address:11 RAM:00000000
+# KERNEL: E=0|T=0000000000001000|PC=11|Demux:0000|address=1011|data=0010|kernel=0010| Multiplication:00000000 | regA:00000011 | Addition:00000000 | regB:00000011 |address:11 RAM:00000000
+# KERNEL: E=0|T=0000000000010000|PC=11|Demux:0000|address=1011|data=0010|kernel=0010| Multiplication:00000100 | regA:00000011 | Addition:00000000 | regB:00000011 |address:11 RAM:00000000
+# KERNEL: E=0|T=0000000000100000|PC=11|Demux:0000|address=1011|data=0010|kernel=0010| Multiplication:00000000 | regA:00000100 | Addition:00000111 | regB:00000011 |address:11 RAM:00000000
+# KERNEL: E=0|T=0000000001000000|PC=11|Demux:0000|address=1011|data=0010|kernel=0010| Multiplication:00000000 | regA:00000100 | Addition:00000000 | regB:00000111 |address:11 RAM:00000000
+# KERNEL: E=0|T=0000000010000000|PC=11|Demux:0000|address=1011|data=0010|kernel=0010| Multiplication:00000000 | regA:00000100 | Addition:00000000 | regB:00000111 |address:11 RAM:00000000
+# KERNEL: E=0|T=0000000000000010|PC=11|Demux:1000|address=1101|data=0011|kernel=0010| Multiplication:00000000 | regA:00000100 | Addition:00000000 | regB:00000111 |address:11 RAM:00000000
+# KERNEL: E=0|T=0000000000000100|PC=11|Demux:0000|address=1101|data=0011|kernel=0010| Multiplication:00000000 | regA:00000100 | Addition:00000000 | regB:00000111 |address:11 RAM:00000000
+# KERNEL: E=0|T=0000000000001000|PC=11|Demux:0000|address=1101|data=0011|kernel=0001| Multiplication:00000000 | regA:00000100 | Addition:00000000 | regB:00000111 |address:11 RAM:00000000
+# KERNEL: E=0|T=0000000000010000|PC=11|Demux:0000|address=1101|data=0011|kernel=0001| Multiplication:00000011 | regA:00000100 | Addition:00000000 | regB:00000111 |address:11 RAM:00000000
+# KERNEL: E=0|T=0000000000100000|PC=11|Demux:0000|address=1101|data=0011|kernel=0001| Multiplication:00000000 | regA:00000011 | Addition:00001010 | regB:00000111 |address:11 RAM:00000000
+# KERNEL: E=0|T=0000000001000000|PC=11|Demux:0000|address=1101|data=0011|kernel=0001| Multiplication:00000000 | regA:00000011 | Addition:00000000 | regB:00001010 |address:11 RAM:00000000
+# KERNEL: E=0|T=0000000010000000|PC=11|Demux:0000|address=1101|data=0011|kernel=0001| Multiplication:00000000 | regA:00000011 | Addition:00000000 | regB:00001010 |address:11 RAM:00000000
+# KERNEL: E=0|T=0000000000000010|PC=11|Demux:1000|address=1110|data=0011|kernel=0001| Multiplication:00000000 | regA:00000011 | Addition:00000000 | regB:00001010 |address:11 RAM:00000000
+# KERNEL: E=0|T=0000000000000100|PC=11|Demux:0000|address=1110|data=0011|kernel=0001| Multiplication:00000000 | regA:00000011 | Addition:00000000 | regB:00001010 |address:11 RAM:00000000
+# KERNEL: E=0|T=0000000000001000|PC=11|Demux:0000|address=1110|data=0011|kernel=0000| Multiplication:00000000 | regA:00000011 | Addition:00000000 | regB:00001010 |address:11 RAM:00000000
+# KERNEL: E=0|T=0000000000010000|PC=11|Demux:0000|address=1110|data=0011|kernel=0000| Multiplication:00000000 | regA:00000011 | Addition:00000000 | regB:00001010 |address:11 RAM:00000000
+# KERNEL: E=0|T=0000000000100000|PC=11|Demux:0000|address=1110|data=0011|kernel=0000| Multiplication:00000000 | regA:00000000 | Addition:00001010 | regB:00001010 |address:11 RAM:00000000
+# KERNEL: E=0|T=0000000001000000|PC=11|Demux:0000|address=1110|data=0011|kernel=0000| Multiplication:00000000 | regA:00000000 | Addition:00000000 | regB:00001010 |address:11 RAM:00000000
+# KERNEL: E=0|T=0000000010000000|PC=11|Demux:0000|address=1110|data=0011|kernel=0000| Multiplication:00000000 | regA:00000000 | Addition:00000000 | regB:00001010 |address:11 RAM:00000000
+# KERNEL: E=0|T=0000000000000010|PC=11|Demux:1000|address=1111|data=0001|kernel=0000| Multiplication:00000000 | regA:00000000 | Addition:00000000 | regB:00001010 |address:11 RAM:00000000
+# KERNEL: E=0|T=0000000000000100|PC=11|Demux:0000|address=1111|data=0001|kernel=0000| Multiplication:00000000 | regA:00000000 | Addition:00000000 | regB:00001010 |address:11 RAM:00000000
+# KERNEL: E=0|T=0000000000001000|PC=11|Demux:0000|address=1111|data=0001|kernel=0001| Multiplication:00000000 | regA:00000000 | Addition:00000000 | regB:00001010 |address:11 RAM:00000000
+# KERNEL: E=0|T=0000000000010000|PC=11|Demux:0000|address=1111|data=0001|kernel=0001| Multiplication:00000001 | regA:00000000 | Addition:00000000 | regB:00001010 |address:11 RAM:00000000
+# KERNEL: E=0|T=0000000000100000|PC=11|Demux:0000|address=1111|data=0001|kernel=0001| Multiplication:00000000 | regA:00000001 | Addition:00001011 | regB:00001010 |address:11 RAM:00000000
+# KERNEL: E=0|T=0000000001000000|PC=11|Demux:0000|address=1111|data=0001|kernel=0001| Multiplication:00000000 | regA:00000001 | Addition:00000000 | regB:00001011 |address:11 RAM:00000000
+# KERNEL: E=0|T=0000000010000000|PC=11|Demux:0000|address=1111|data=0001|kernel=0001| Multiplication:00000000 | regA:00000001 | Addition:00000000 | regB:00001011 |address:11 RAM:00000000
+# KERNEL: E=0|T=0000000000000010|PC=11|Demux:1000|address=0101|data=0000|kernel=0001| Multiplication:00000000 | regA:00000001 | Addition:00000000 | regB:00001011 |address:11 RAM:00000000
+# KERNEL: E=0|T=0000000000000100|PC=11|Demux:0000|address=0101|data=0000|kernel=0001| Multiplication:00000000 | regA:00000001 | Addition:00000000 | regB:00001011 |address:11 RAM:00000000
+# KERNEL: E=0|T=0000000000001000|PC=11|Demux:0000|address=0101|data=0000|kernel=0010| Multiplication:00000000 | regA:00000001 | Addition:00000000 | regB:00001011 |address:11 RAM:00000000
+# KERNEL: E=0|T=0000000000010000|PC=11|Demux:0000|address=0101|data=0000|kernel=0010| Multiplication:00000000 | regA:00000001 | Addition:00000000 | regB:00001011 |address:11 RAM:00000000
+# KERNEL: E=0|T=0000000000100000|PC=11|Demux:0000|address=0101|data=0000|kernel=0010| Multiplication:00000000 | regA:00000000 | Addition:00001011 | regB:00001011 |address:11 RAM:00000000
+# KERNEL: E=0|T=0000000001000000|PC=11|Demux:0000|address=0101|data=0000|kernel=0010| Multiplication:00000000 | regA:00000000 | Addition:00000000 | regB:00001011 |address:11 RAM:00000000
+# KERNEL: E=0|T=0000000010000000|PC=11|Demux:0000|address=0101|data=0000|kernel=0010| Multiplication:00000000 | regA:00000000 | Addition:00000000 | regB:00001011 |address:11 RAM:00000000
+# KERNEL: E=0|T=0000000000000010|PC=11|Demux:1000|address=0110|data=0001|kernel=0010| Multiplication:00000000 | regA:00000000 | Addition:00000000 | regB:00001011 |address:11 RAM:00000000
+# KERNEL: E=0|T=0000000000000100|PC=11|Demux:0000|address=0110|data=0001|kernel=0010| Multiplication:00000000 | regA:00000000 | Addition:00000000 | regB:00001011 |address:11 RAM:00000000
+# KERNEL: E=0|T=0000000000001000|PC=11|Demux:0000|address=0110|data=0001|kernel=0001| Multiplication:00000000 | regA:00000000 | Addition:00000000 | regB:00001011 |address:11 RAM:00000000
+# KERNEL: E=0|T=0000000000010000|PC=11|Demux:0000|address=0110|data=0001|kernel=0001| Multiplication:00000001 | regA:00000000 | Addition:00000000 | regB:00001011 |address:11 RAM:00000000
+# KERNEL: E=0|T=0000000000100000|PC=11|Demux:0000|address=0110|data=0001|kernel=0001| Multiplication:00000000 | regA:00000001 | Addition:00001100 | regB:00001011 |address:11 RAM:00000000
+# KERNEL: E=0|T=0000000001000000|PC=11|Demux:0000|address=0110|data=0001|kernel=0001| Multiplication:00000000 | regA:00000001 | Addition:00000000 | regB:00001100 |address:11 RAM:00000000
+# KERNEL: E=0|T=0000000010000000|PC=11|Demux:0000|address=0110|data=0001|kernel=0001| Multiplication:00000000 | regA:00000001 | Addition:00000000 | regB:00001100 |address:11 RAM:00000000
+# KERNEL: E=0|T=0000000000000010|PC=11|Demux:1000|address=0111|data=0001|kernel=0001| Multiplication:00000000 | regA:00000001 | Addition:00000000 | regB:00001100 |address:11 RAM:00000000
+# KERNEL: E=0|T=0000000000000100|PC=11|Demux:0000|address=0111|data=0001|kernel=0001| Multiplication:00000000 | regA:00000001 | Addition:00000000 | regB:00001100 |address:11 RAM:00000000
+# KERNEL: E=0|T=0000000000001000|PC=11|Demux:0000|address=0111|data=0001|kernel=0000| Multiplication:00000000 | regA:00000001 | Addition:00000000 | regB:00001100 |address:11 RAM:00000000
+# KERNEL: E=0|T=0000000000010000|PC=11|Demux:0000|address=0111|data=0001|kernel=0000| Multiplication:00000000 | regA:00000001 | Addition:00000000 | regB:00001100 |address:11 RAM:00000000
+# KERNEL: E=0|T=0000000000100000|PC=11|Demux:0000|address=0111|data=0001|kernel=0000| Multiplication:00000000 | regA:00000000 | Addition:00001100 | regB:00001100 |address:11 RAM:00000000
+# KERNEL: E=0|T=0000000001000000|PC=11|Demux:0000|address=0111|data=0001|kernel=0000| Multiplication:00000000 | regA:00000000 | Addition:00000000 | regB:00001100 |address:11 RAM:00000000
+# KERNEL: E=0|T=0000000010000000|PC=11|Demux:0000|address=0111|data=0001|kernel=0000| Multiplication:00000000 | regA:00000000 | Addition:00000000 | regB:00001100 |address:11 RAM:00000000
+# KERNEL: E=0|T=0000000000000010|PC=11|Demux:1000|address=1001|data=0010|kernel=0000| Multiplication:00000000 | regA:00000000 | Addition:00000000 | regB:00001100 |address:11 RAM:00000000
+# KERNEL: E=0|T=0000000000000100|PC=11|Demux:0000|address=1001|data=0010|kernel=0000| Multiplication:00000000 | regA:00000000 | Addition:00000000 | regB:00001100 |address:11 RAM:00000000
+# KERNEL: E=1|T=0000000000001000|PC=11|Demux:0000|address=1001|data=0010|kernel=0001| Multiplication:00000000 | regA:00000000 | Addition:00000000 | regB:00001100 |address:11 RAM:00000000
+# KERNEL: E=1|T=0000000000010000|PC=11|Demux:0000|address=1001|data=0010|kernel=0001| Multiplication:00000010 | regA:00000000 | Addition:00000000 | regB:00001100 |address:11 RAM:00000000
+# KERNEL: E=1|T=0000000000100000|PC=11|Demux:0000|address=1001|data=0010|kernel=0001| Multiplication:00000000 | regA:00000010 | Addition:00001110 | regB:00001100 |address:11 RAM:00000000
+# KERNEL: E=1|T=0000000001000000|PC=11|Demux:0000|address=1001|data=0010|kernel=0001| Multiplication:00000000 | regA:00000010 | Addition:00000000 | regB:00001110 |address:11 RAM:00000000
+# KERNEL: E=1|T=0000000010000000|PC=11|Demux:0000|address=1001|data=0010|kernel=0001| Multiplication:00000000 | regA:00000010 | Addition:00000000 | regB:00001110 |address:11 RAM:00000000
+# KERNEL: E=1|T=0000000100000000|PC=11|Demux:0000|address=1001|data=0010|kernel=0001| Multiplication:00000000 | regA:00000010 | Addition:00000000 | regB:00001110 |address:11 RAM:00001110
+# RUNTIME: Info: RUNTIME_0068 BreadBoard.v (170): $finish called.
+# KERNEL: Time: 2530 ns,  Iteration: 0,  Instance: /BreadBoard,  Process: @INITIAL#161_4@.
+# KERNEL: stopped at time: 2530 ns
+# VSIM: Simulation has finished. There are no more test vectors to simulate.

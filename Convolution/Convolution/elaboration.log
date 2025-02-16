@@ -1,0 +1,45 @@
+Active-HDL 15.0.261.9132 2025-02-17 00:11:31
+
+Elaboration top modules:
+Verilog Module                BreadBoard
+
+
+-----------------------------------------------------------------------------------------------
+Verilog Module          | Library     | Info | Compiler Version          | Compilation Options
+-----------------------------------------------------------------------------------------------
+BreadBoard              | convolution |      | 15.0.261.9132 (Windows64) | -O2 -sv2k17
+control_unit            | convolution |      | 15.0.261.9132 (Windows64) | -O2 -sv2k17
+program_counter         | convolution |      | 15.0.261.9132 (Windows64) | -O2 -sv2k17
+Demux_1x4               | convolution |      | 15.0.261.9132 (Windows64) | -O2 -sv2k17
+counter_one             | convolution |      | 15.0.261.9132 (Windows64) | -O2 -sv2k17
+counter_two             | convolution |      | 15.0.261.9132 (Windows64) | -O2 -sv2k17
+counter_three           | convolution |      | 15.0.261.9132 (Windows64) | -O2 -sv2k17
+counter_four            | convolution |      | 15.0.261.9132 (Windows64) | -O2 -sv2k17
+Databus_4bit            | convolution |      | 15.0.261.9132 (Windows64) | -O2 -sv2k17
+ROM                     | convolution |      | 15.0.261.9132 (Windows64) | -O2 -sv2k17
+kernel_counter          | convolution |      | 15.0.261.9132 (Windows64) | -O2 -sv2k17
+kernel                  | convolution |      | 15.0.261.9132 (Windows64) | -O2 -sv2k17
+reg_8bit                | convolution |      | 15.0.261.9132 (Windows64) | -O2 -sv2k17
+ALU                     | convolution |      | 15.0.261.9132 (Windows64) | -O2 -sv2k17
+RAM                     | convolution |      | 15.0.261.9132 (Windows64) | -O2 -sv2k17
+D_Flip_Flop             | convolution |      | 15.0.261.9132 (Windows64) | -O2 -sv2k17
+decoder4to16            | convolution |      | 15.0.261.9132 (Windows64) | -O2 -sv2k17
+eight_bit_adder         | convolution |      | 15.0.261.9132 (Windows64) | -O2 -sv2k17
+multiplier_4x4          | convolution |      | 15.0.261.9132 (Windows64) | -O2 -sv2k17
+full_adder              | convolution |      | 15.0.261.9132 (Windows64) | -O2 -sv2k17
+half_adder              | convolution |      | 15.0.261.9132 (Windows64) | -O2 -sv2k17
+four_bit_adder          | convolution |      | 15.0.261.9132 (Windows64) | -O2 -sv2k17
+decoder2to4             | convolution |      | 15.0.261.9132 (Windows64) | -O2 -sv2k17
+-----------------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------------------
+Library                 | Comment
+-----------------------------------------------------------------------------------------------
+convolution             | None
+-----------------------------------------------------------------------------------------------
+
+
+Simulation Options: asim -O5 +access +r +m+BreadBoard BreadBoard
+
+
+The performance of simulation is reduced. Version Student Edition
