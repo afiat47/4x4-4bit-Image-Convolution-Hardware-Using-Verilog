@@ -86,8 +86,8 @@ Below are some of the result images generated from the simulation:
 ![Flowchart](docs/flowchart.jpg)
 ![State Diagram](docs/state_diagram.jpg)
 ![Block Diagram](docs/block_diagram.jpg)
-![Result Image](docs/result_image.png)
-![Result Image](docs/waverform.png)
+![Result Image](docs/result_image.PNG)
+![Waveform](docs/waverform.PNG)
 
 ## Future Improvements
 - Extend the design for **larger image sizes**.
