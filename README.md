@@ -44,8 +44,8 @@ This project implements a **4x4 image convolution system** using a **3x3 kernel*
 │   │   └── convolution library
 ├── docs
 │   ├── report.pdf
-│   ├── flowchart.png
-│   ├── state_diagram.png
+│   ├── flowchart.jpg
+│   ├── state_diagram.jpg
 │   ├── block_diagram.png
 │   ├── result_image.png  # Added result image from report
 ├── README.md
@@ -83,10 +83,11 @@ The system consists of the following main components:
 ### Result Images
 Below are some of the result images generated from the simulation:
 
-![Flowchart](docs/flowchart.png)
-![State Diagram](docs/state_diagram.png)
-![Block Diagram](docs/block_diagram.png)
-![Result Image](docs/result_image.png)
+![Flowchart](docs/flowchart.jpg)
+![State Diagram](docs/state_diagram.jpg)
+![Block Diagram](docs/block_diagram.jpg)
+![Result Image](docs/result_image.jpg)
+![Result Image](docs/waverform.jpg)
 
 ## Future Improvements
 - Extend the design for **larger image sizes**.
